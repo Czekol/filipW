@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #14213d;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23fca311' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23fcbf49' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23fda70e' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23fdc040' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23fdab0b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23fec036' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23feaf08' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23fec12b' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ffb306' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23ffc21c' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ffb703' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23ffc300' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+
+	font-family: sans-serif;
+	overflow: hidden;
+}
+
+i.snowflake {
+	position: absolute;
+	top: -70px;
+	animation: snow linear;
+  
+}
+
+@keyframes snow {
+	to {
+		transform: translateY(110vh);
+	}
+}
+
+
+.carousel {
+  position: absolute;
+  text-align: center;
+  height: 500px;
+	width: 40%;
+	margin: 40px 40px;
+  position: relative;display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.slick-slide img {
+	width: 100%;
+	height: 500px;
+	border-radius: 50px;
+	background-size: cover;
+	object-fit: cover;
+}
+
+i {
+	font-size: 50px;
+	color: #8d99ae;
+}
+
+.perv {
+	display: block;
+	position: absolute;
+	z-index: 1000;
+	top: 50%;
+	left: 50px;
+	transform: translateY(-50%);
+}
+
+.next {
+	display: block;
+	position: absolute;
+	right: 50px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1000;
+}
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 15px;
+}
+
+.slick-dots li button::before {
+	font-size: 30px;
+	color: #272222;
+}
+
+.slick-dots li.slick-active button:before {
+	color: black;
+}
+
+.text-box p {
+
+ 
+text-align: center;
+   position: absolute;
+   margin-left: 32rem;
+	bottom: 10rem;
+font-size: 2.4rem;
+text-align: center;
+text-decoration: underline;
+font-family: 'Major Mono Display', monospace;
+color: #edf2f4;
+
+
+}
+
+.text-box h4 {
+  position: absolute;
+	bottom: 10rem;
+  margin-bottom: 2.3rem;
+
+   margin-left: 32rem;
+  font-size: 4.2rem;
+text-align: center;
+font-family: 'Pacifico', cursive;
+color:#001d3d;
+
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 100px;
+  left: 25%;
+  text-align: center;
+  font-size: 36px;
+  font-family: monospace;
+  color: #900000;
+}
+
+.second {
+  font-size: 54px;
+  color: #ffb703;
+}
+
+.third {
+  font-size: 54px;
+  color: #fb8500;
+}
+
+
+
+
